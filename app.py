@@ -12,9 +12,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return '<h1>Hello Totoro!</h1><img src="http://helloflask.com/totoro.gif">'
+    return '<h1>Hello Totoro! Welcome！</h1><img src="http://helloflask.com/totoro.gif">'
 
 if __name__ == '__main__':
-    app.debug = True
     app.run()
 
